@@ -19,7 +19,6 @@ daję rzeczy, które można **otworzyć i sprawdzić w 10 sekund**:
 | 🧾 **System zgłoszeń serwisowych i reklamacji** | [`mp-service-suite`](https://github.com/konrad-szydlowski/mp-service-suite) | formularz + konto klienta, rejestr gwarancji, automat przydziałów i SLA — **23 wydania** |
 | 💈 Strona barbera | [zelezce-barber-demo](https://zelezce-barber-demo.netlify.app) | żywa strona, otwiera się na telefonie |
 | 🔧 Warsztat samochodowy | [oktan-serwis-demo](https://oktan-serwis-demo.netlify.app) | żywa strona |
-| 💰 Cennik i pakiety | [dobra-strona-oferta](https://dobra-strona-oferta.netlify.app) | ceny wprost, bez „wyceny indywidualnej" |
 
 > **Historia wydań to nie ozdoba.** 15 i 23 wydania znaczą, że te projekty były poprawiane,
 > testowane i oddawane — a nie wrzucone raz i porzucone. To widać w zakładce *Releases*.
