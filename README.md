@@ -1,10 +1,8 @@
 <div align="center">
 
-# Konrad Szydłowski
+<img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/naglowek.svg" alt="Konrad Szydłowski — strony WWW, wtyczki WordPress, automatyzacje" width="880">
 
-**Strony WWW · wtyczki WordPress · automatyzacje, które robią robotę za człowieka**
-
-Naprawiam to, co przestało działać — i buduję to, co ma działać samo.
+**Naprawiam to, co przestało działać — i buduję to, co ma działać samo.**
 
 </div>
 

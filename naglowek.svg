@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="190" viewBox="0 0 880 190" role="img"
+     aria-label="Konrad Szydłowski — strony WWW, wtyczki WordPress, automatyzacje">
+  <defs>
+    <linearGradient id="tlo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#111a22"/>
+    </linearGradient>
+    <linearGradient id="linia" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="190" rx="14" fill="url(#tlo)"/>
+  <rect x="0" y="0" width="880" height="190" rx="14" fill="none" stroke="#1e2b36" stroke-width="1"/>
+
+  <!-- delikatny puls linii pod nagłówkiem -->
+  <rect x="60" y="86" width="760" height="1.5" fill="url(#linia)">
+    <animate attributeName="opacity" values="0.25;1;0.25" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="440" y="66" text-anchor="middle" font-family="JetBrains Mono, DejaVu Sans Mono, monospace"
+        font-size="34" font-weight="700" fill="#e6f6fb" letter-spacing="1">Konrad Szydłowski</text>
+
+  <!-- trzy zdania zmieniają się w kółko; każde widoczne 4 s z 12 s cyklu -->
+  <g font-family="JetBrains Mono, DejaVu Sans Mono, monospace" font-size="17" fill="#22D3EE" text-anchor="middle">
+    <text x="440" y="122" opacity="0">
+      Naprawiam to, co przestało działać
+      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="440" y="122" opacity="0">
+      Automatyzuję to, co ktoś przepisuje ręcznie
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="440" y="122" opacity="0">
+      Piszę wtyczki WordPress, które zostają Twoje
+      <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;0" dur="12s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="440" y="156" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#7d97a6">
+    WordPress · n8n · integracje API · strony WWW
+  </text>
+</svg>
