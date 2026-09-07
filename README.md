@@ -8,20 +8,27 @@
 
 ---
 
-## 👇 Nie wierz na słowo — kliknij i zobacz
+## 👇 Nie wierz na słowo — otwórz kod i zobacz
 
-Nie mam tu jeszcze gwiazdek ani opinii, bo konto jest nowe. Dlatego zamiast prosić o zaufanie,
-daję rzeczy, które można **otworzyć i sprawdzić w 10 sekund**:
+Nie mam tu jeszcze gwiazdek ani opinii, bo konto jest nowe. Zamiast prosić o zaufanie,
+pokazuję **działający kod, który można przeczytać przed decyzją**:
 
-| co | link | co tam zobaczysz |
-|---|---|---|
-| 🐱 **Wtyczki dla pensjonatu dla zwierząt** | [`catsnboard`](https://github.com/konrad-szydlowski/catsnboard) | galeria, kalendarz z zapisami, tłumaczenie treści — **15 wydań**, kod otwarty (GPL) |
-| 🧾 **System zgłoszeń serwisowych i reklamacji** | [`mp-service-suite`](https://github.com/konrad-szydlowski/mp-service-suite) | formularz + konto klienta, rejestr gwarancji, automat przydziałów i SLA — **23 wydania** |
-| 💈 Strona barbera | [zelezce-barber-demo](https://zelezce-barber-demo.netlify.app) | żywa strona, otwiera się na telefonie |
-| 🔧 Warsztat samochodowy | [oktan-serwis-demo](https://oktan-serwis-demo.netlify.app) | żywa strona |
+### 🧾 [`mp-service-suite`](https://github.com/konrad-szydlowski/mp-service-suite) — obsługa zgłoszeń serwisowych i reklamacji
+Trzy wtyczki WordPress: formularz zgłoszenia z kontem klienta, rejestr numerów seryjnych
+i gwarancji z importem CSV, automat przydziałów, terminów SLA, powiadomień i raportów.
+**23 wydania**, licencja GPL, kontrole jakości w CI.
 
-> **Historia wydań to nie ozdoba.** 15 i 23 wydania znaczą, że te projekty były poprawiane,
-> testowane i oddawane — a nie wrzucone raz i porzucone. To widać w zakładce *Releases*.
+### 🐱 [`catsnboard`](https://github.com/konrad-szydlowski/catsnboard) — wtyczki dla pensjonatu dla zwierząt
+Galeria, kalendarz wydarzeń z zapisami, wielojęzyczność z tłumaczeniem treści, panel administratora.
+Realizacja komercyjna, oddana i działająca. **15 wydań**, licencja GPL.
+
+### 🛒 Sklep Agentów — sklep z wtyczkami AI, w całości na WordPressie
+Wtyczka sklepu (płatności Stripe, RODO, paczki do pobrania) plus dwa produkty, które sprzedaje:
+ChatBot LIVE i Segregator maila. **Mój wkład: 290 commitów i 59 pull requestów.**
+🔒 Repozytorium prywatne — kodu nie pokażę publicznie, ale aktywność widać na wykresie niżej.
+
+> **Historia wydań to nie ozdoba.** 23 i 15 wydań znaczy, że te projekty były poprawiane,
+> testowane i oddawane — a nie wrzucone raz i porzucone. Zajrzyj do zakładki *Releases*.
 
 ---
 
@@ -71,7 +78,7 @@ Piszę własną — katalog, kalendarz, importer, panel. Kod zostaje Twój.
 
 - **Najpierw spisuję, co dokładnie ma powstać.** Dopiero potem buduję. Bez tego zawsze wychodzi
   „miało być inaczej".
-- **Pokazuję postęp na żywo**, nie po fakcie. Możesz zobaczyć i powiedzieć „nie tak" zanim skończę.
+- **Pokazuję postęp na żywo**, nie po fakcie. Możesz zobaczyć i powiedzieć „nie tak", zanim skończę.
 - **Oddaję z instrukcją napisaną po ludzku** — bez żargonu, żebyś nie musiał do mnie wracać
   przy każdej drobnej zmianie.
 - **Jeśli w trakcie okaże się, że robota jest większa, niż zakładaliśmy — mówię o tym przed
