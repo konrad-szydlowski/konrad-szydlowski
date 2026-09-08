@@ -2,33 +2,95 @@
 
 <img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/naglowek.svg" alt="Konrad Szydłowski — strony WWW, wtyczki WordPress, automatyzacje" width="880">
 
-**Naprawiam to, co przestało działać — i buduję to, co ma działać samo.**
+### Naprawiam to, co przestało działać — i buduję to, co ma działać samo.
+
+`WordPress` · `wtyczki na miarę` · `automatyzacje` · `Python` · `integracje API`
 
 </div>
 
 ---
 
-## 👇 Nie wierz na słowo — otwórz kod i zobacz
+## 🔍 Trzy projekty — i ekran z każdego
 
-Nie mam tu jeszcze gwiazdek ani opinii, bo konto jest nowe. Zamiast prosić o zaufanie,
-pokazuję **działający kod, który można przeczytać przed decyzją**:
+Konto jest nowe, więc nie mam tu gwiazdek ani opinii. Zamiast prosić o zaufanie, pokazuję
+**ekrany działających systemów i kod, który można przeczytać przed decyzją.**
 
-### 🧾 [`mp-service-suite`](https://github.com/konrad-szydlowski/mp-service-suite) — obsługa zgłoszeń serwisowych i reklamacji
-Trzy wtyczki WordPress: formularz zgłoszenia z kontem klienta, rejestr numerów seryjnych
-i gwarancji z importem CSV, automat przydziałów, terminów SLA, powiadomień i raportów.
-**23 wydania**, licencja GPL, kontrole jakości w CI.
+Trzy projekty, nie trzydzieści. Każdy naprawdę skończony i oddany.
 
-### 🐱 [`catsnboard`](https://github.com/konrad-szydlowski/catsnboard) — wtyczki dla pensjonatu dla zwierząt
-Galeria, kalendarz wydarzeń z zapisami, wielojęzyczność z tłumaczeniem treści, panel administratora.
-Realizacja komercyjna, oddana i działająca. **15 wydań**, licencja GPL.
+<br>
 
-### 🛒 Sklep Agentów — sklep z wtyczkami AI, w całości na WordPressie
-Wtyczka sklepu (płatności Stripe, RODO, paczki do pobrania) plus dwa produkty, które sprzedaje:
-ChatBot LIVE i Segregator maila. **Mój wkład: 290 commitów i 59 pull requestów.**
-🔒 Repozytorium prywatne — kodu nie pokażę publicznie, ale aktywność widać na wykresie niżej.
+### 1 · Zgłoszenia serwisowe i reklamacje
 
-> **Historia wydań to nie ozdoba.** 23 i 15 wydań znaczy, że te projekty były poprawiane,
-> testowane i oddawane — a nie wrzucone raz i porzucone. Zajrzyj do zakładki *Releases*.
+<img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/assets/mp-service-suite.png" alt="Panel spraw serwisowych — lista zgłoszeń ze statusami i terminami SLA" width="100%">
+
+Trzy wtyczki WordPress: formularz zgłoszenia z kontem klienta · rejestr numerów seryjnych
+i gwarancji z importem CSV · automat przydziałów, terminów, powiadomień i raportów.
+
+| Co widać na ekranie | Dlaczego to nie jest zwykła tabelka |
+|---|---|
+| 12 spraw, każda z numerem, rodzajem, statusem i osobą przydzieloną | statusy nie są etykietą — sterują tym, co system wolno zrobić dalej |
+| terminy SLA, część na czerwono: **„po terminie"** | zegar liczy się sam i przypomina, **zanim** klient zadzwoni z pretensją |
+| filtry po statusie, rodzaju i osobie | przy 12 sprawach to wygoda, przy 400 — jedyny sposób, żeby cokolwiek znaleźć |
+
+**23 wydania · licencja GPL · kontrole jakości uruchamiane przy każdej zmianie**
+
+➜ **[Zobacz kod](https://github.com/konrad-szydlowski/mp-service-suite)**
+
+<br>
+
+### 2 · Sklep z wtyczkami AI — w całości na WordPressie
+
+<img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/assets/sklep-agentow.png" alt="Sklep Agentów — strona sprzedażowa wtyczek-botów" width="100%">
+
+Wtyczka sklepu: płatności Stripe, obsługa RODO, paczki do pobrania po opłaceniu — plus dwa
+produkty, które ten sklep sprzedaje: **ChatBot LIVE** i **Segregator maila**.
+
+| Co widać na ekranie | Dlaczego to nie jest zwykła podstrona |
+|---|---|
+| sklep, koszyk i dostęp do plików bez WooCommerce | mniej zależności = mniej rzeczy, które za rok przestaną działać |
+| tryb testowy — pełny zakup kartą testową, bez pobierania pieniędzy | klient sprawdza całą ścieżkę zakupu, zanim cokolwiek zapłaci |
+| zielony bąbelek w rogu to działający ChatBot LIVE | produkt sprzedaje się, pokazując siebie w akcji |
+
+**734 commity i 98 scalonych pull requestów — z 738 commitów w tym repozytorium.**
+
+🔒 Repozytorium jest jeszcze prywatne; kod udostępniam na życzenie przed decyzją.
+
+<br>
+
+### 3 · Wtyczki dla pensjonatu dla kotów
+
+<img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/assets/catsnboard.png" alt="Galeria zdjęć — karuzela kart ze zdjęciami" width="100%">
+
+Realizacja komercyjna, oddana i działająca. Galeria, kalendarz wydarzeń z zapisami,
+wielojęzyczność z tłumaczeniem treści i panel do zarządzania tym wszystkim.
+
+| Co widać na ekranie | Dlaczego to nie jest wtyczka z półki |
+|---|---|
+| galeria wpięta w **istniejący wygląd strony klienta** | klient nie musiał zmieniać motywu ani niczego przebudowywać |
+| licznik `03 / 12` i płynne przewijanie | zdjęcia doczytują się partiami — 200 zdjęć nie kładzie telefonu |
+| ta sama treść po polsku i po angielsku | tłumaczenia opisów wydarzeń, nie tylko przycisków |
+
+**15 wydań · licencja GPL**
+
+➜ **[Zobacz kod](https://github.com/konrad-szydlowski/catsnboard)**
+
+---
+
+## 🧪 Czego na zrzucie nie widać
+
+To jest ta część, o której zwykle nikt nie mówi, dopóki coś nie padnie.
+
+**Sprawdzam swoją robotę cudzymi rękami.** Skończona paczka nie jedzie do klienta z mojego
+komputera, gdzie „u mnie działa". Ląduje na **czystej instalacji WordPressa** i przechodzi
+osobny przebieg kontrolny, którego jedynym celem jest ją złamać: zła kolejność kliknięć,
+przerwana płatność, plik nie ten, dwie osoby robiące to samo w tej samej sekundzie.
+
+Co przy tym wyjdzie — **spisuję razem z miejscem w kodzie i datą.** Dzięki temu przy oddaniu
+wiem, co jest zrobione, a co świadomie zostawiam na później. I mówię to **przed** fakturą, nie po.
+
+> Komplet zielonych testów mówi tylko tyle, że kod przechodzi te testy, które ktoś zdążył
+> pomyśleć. Osobny przebieg kontrolny mojego największego projektu wyłapał rzeczy, których
+> nie złapał żaden z nich.
 
 ---
 
@@ -83,7 +145,7 @@ Piszę własną — katalog, kalendarz, importer, panel. Kod zostaje Twój.
   przy każdej drobnej zmianie.
 - **Jeśli w trakcie okaże się, że robota jest większa, niż zakładaliśmy — mówię o tym przed
   fakturą, nie po.**
-- Hosting i domena zostają **na Twoim koncie**. Nie trzymam klientów u siebie.
+- **Hosting i domena zostają na Twoim koncie.** Nie trzymam klientów u siebie.
 
 W kodzie pomagają mi narzędzia AI — piszą fragmenty, wyłapują błędy, generują dokumentację.
 Nie jest to gadżet: dzięki temu ten sam zakres kosztuje mniej, niż gdybym pisał wszystko ręcznie.
@@ -96,3 +158,4 @@ Architektura, decyzje i odpowiedzialność są moje.
 **kontakt.dobrastrona@gmail.com** · piszę po polsku, prosto, bez żargonu · pracuję zdalnie, w całej Polsce
 
 Napisz, co ma działać — odpiszę, czy to robota na 300 zł, czy na 3 000, i ile potrwa.
+Bez zobowiązań i bez żargonu.
