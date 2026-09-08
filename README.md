@@ -19,26 +19,7 @@ Trzy projekty, nie trzydzieści. Każdy naprawdę skończony i oddany.
 
 <br>
 
-### 1 · Zgłoszenia serwisowe i reklamacje
-
-<img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/assets/mp-service-suite.png" alt="Panel spraw serwisowych — lista zgłoszeń ze statusami i terminami SLA" width="100%">
-
-Trzy wtyczki WordPress: formularz zgłoszenia z kontem klienta · rejestr numerów seryjnych
-i gwarancji z importem CSV · automat przydziałów, terminów, powiadomień i raportów.
-
-| Co widać na ekranie | Dlaczego to nie jest zwykła tabelka |
-|---|---|
-| 12 spraw, każda z numerem, rodzajem, statusem i osobą przydzieloną | statusy nie są etykietą — sterują tym, co system wolno zrobić dalej |
-| terminy SLA, część na czerwono: **„po terminie"** | zegar liczy się sam i przypomina, **zanim** klient zadzwoni z pretensją |
-| filtry po statusie, rodzaju i osobie | przy 12 sprawach to wygoda, przy 400 — jedyny sposób, żeby cokolwiek znaleźć |
-
-**23 wydania · licencja GPL · kontrole jakości uruchamiane przy każdej zmianie**
-
-➜ **[Zobacz kod](https://github.com/konrad-szydlowski/mp-service-suite)**
-
-<br>
-
-### 2 · Sklep z wtyczkami AI — w całości na WordPressie
+### 1 · Sklep z wtyczkami AI — w całości na WordPressie
 
 <img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/assets/sklep-agentow.png" alt="Sklep Agentów — strona sprzedażowa wtyczek-botów" width="100%">
 
@@ -54,6 +35,25 @@ produkty, które ten sklep sprzedaje: **ChatBot LIVE** i **Segregator maila**.
 **734 commity i 98 scalonych pull requestów — z 738 commitów w tym repozytorium.**
 
 🔒 Repozytorium jest jeszcze prywatne; kod udostępniam na życzenie przed decyzją.
+
+<br>
+
+### 2 · Zgłoszenia serwisowe i reklamacje
+
+<img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/assets/mp-service-suite.png" alt="Panel spraw serwisowych — lista zgłoszeń ze statusami i terminami SLA" width="100%">
+
+Trzy wtyczki WordPress: formularz zgłoszenia z kontem klienta · rejestr numerów seryjnych
+i gwarancji z importem CSV · automat przydziałów, terminów, powiadomień i raportów.
+
+| Co widać na ekranie | Dlaczego to nie jest zwykła tabelka |
+|---|---|
+| 12 spraw, każda z numerem, rodzajem, statusem i osobą przydzieloną | statusy nie są etykietą — sterują tym, co system wolno zrobić dalej |
+| terminy SLA, część na czerwono: **„po terminie"** | zegar liczy się sam i przypomina, **zanim** klient zadzwoni z pretensją |
+| filtry po statusie, rodzaju i osobie | przy 12 sprawach to wygoda, przy 400 — jedyny sposób, żeby cokolwiek znaleźć |
+
+**23 wydania · licencja GPL · kontrole jakości uruchamiane przy każdej zmianie**
+
+➜ **[Zobacz kod](https://github.com/konrad-szydlowski/mp-service-suite)**
 
 <br>
 
