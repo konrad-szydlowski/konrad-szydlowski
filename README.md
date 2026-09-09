@@ -34,7 +34,7 @@ produkty, które ten sklep sprzedaje: **ChatBot LIVE** i **Segregator maila**.
 | tryb testowy — pełny zakup kartą testową, bez pobierania pieniędzy | klient sprawdza całą ścieżkę zakupu, zanim cokolwiek zapłaci |
 | zielony bąbelek w rogu to działający ChatBot LIVE | produkt sprzedaje się, pokazując siebie w akcji |
 
-**734 commity i 98 scalonych pull requestów — z 738 commitów w tym repozytorium.**
+**738 commitów, 296 scalonych pull requestów i 17 wydań** — liczby z repozytorium, stan 09.09.2026.
 
 🔒 Repozytorium prywatne — to mój produkt, nie pokaz kodu. Dwa pozostałe projekty są
 otwarte i można je przeczytać w całości przed decyzją.
