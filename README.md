@@ -15,7 +15,9 @@
 Konto jest nowe, więc nie mam tu gwiazdek ani opinii. Zamiast prosić o zaufanie, pokazuję
 **ekrany działających systemów i kod, który można przeczytać przed decyzją.**
 
-Trzy projekty, nie trzydzieści. Każdy naprawdę skończony i oddany.
+Trzy projekty, nie trzydzieści. Dwa z nich powstały jako **zadania sprawdzające
+od doświadczonego programisty** — skończone, oddane i recenzowane po oddaniu; poprawki
+z recenzji widać w historii wydań. Trzeci to mój własny produkt.
 
 <br>
 
@@ -34,7 +36,8 @@ produkty, które ten sklep sprzedaje: **ChatBot LIVE** i **Segregator maila**.
 
 **734 commity i 98 scalonych pull requestów — z 738 commitów w tym repozytorium.**
 
-🔒 Repozytorium jest jeszcze prywatne; kod udostępniam na życzenie przed decyzją.
+🔒 Repozytorium prywatne — to mój produkt, nie pokaz kodu. Dwa pozostałe projekty są
+otwarte i można je przeczytać w całości przed decyzją.
 
 <br>
 
@@ -61,12 +64,13 @@ i gwarancji z importem CSV · automat przydziałów, terminów, powiadomień i r
 
 <img src="https://raw.githubusercontent.com/konrad-szydlowski/konrad-szydlowski/main/assets/catsnboard.png" alt="Galeria zdjęć — karuzela kart ze zdjęciami" width="100%">
 
-Realizacja komercyjna, oddana i działająca. Galeria, kalendarz wydarzeń z zapisami,
-wielojęzyczność z tłumaczeniem treści i panel do zarządzania tym wszystkim.
+Zadanie sprawdzające od doświadczonego programisty, recenzowane po oddaniu — poprawki
+z recenzji widać w historii 15 wydań. Galeria, kalendarz wydarzeń z zapisami, wielojęzyczność
+z tłumaczeniem treści i panel do zarządzania tym wszystkim.
 
 | Co widać na ekranie | Dlaczego to nie jest wtyczka z półki |
 |---|---|
-| galeria wpięta w **istniejący wygląd strony klienta** | klient nie musiał zmieniać motywu ani niczego przebudowywać |
+| galeria wpięta w **istniejący motyw**, bez jego przebudowy | wtyczkę dokłada się do gotowej strony — nie trzeba jej stawiać od nowa |
 | licznik `03 / 12` i płynne przewijanie | zdjęcia doczytują się partiami — 200 zdjęć nie kładzie telefonu |
 | ta sama treść po polsku i po angielsku | tłumaczenia opisów wydarzeń, nie tylko przycisków |
 
